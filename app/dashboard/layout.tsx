@@ -1,7 +1,7 @@
 const DashBoardLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>
-      <h1>Dashboard Lyaout</h1>
+    <div className="flex flex-col gap-y-4">
+      <nav className="bg-black text-white">My navbar</nav>
       {children}
     </div>
   );
