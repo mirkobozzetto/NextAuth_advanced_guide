@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
       <Button size="lg" variant="default">
@@ -8,4 +8,6 @@ export default function Home() {
       </Button>
     </div>
   );
-}
+};
+
+export default Home;
